@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Oscar Cambronero">
+    <meta name="description" content="Hoja de vida de Oscar Cambronero">
+    <title>Ejercicio de codificación 4.1</title>
+  </head>
+  <body>
+    <h1>Registro en nuestra tienda</h1>
+    <form class="" action="index.html" method="post">
+    <p>
+      <label for="nombre">Nombre</label>
+      <input type="text" autofocus required name="nombre" value="" placeholder="Ej:Luis">
+    </p>
+    <p>
+      <label for="email">Email</label>
+      <input type="email" name="email" value="" placeholder="Ej: luis@gmail.com" required>
+    </p>
+    <p>
+      <label for="edad">Edad:</label>
+      <input type="number" name="edad" min="0" max="100">
+    </p>
+    <p>
+      <label for="recomendado_por">Recomendado por:</label>
+      <br>
+      <select class="" name="recomendado_por">
+        <option value="1">María Rojas</option>
+        <option value="2">Jorge Pérez</option>
+        <option value="3">Daniel Mora</option>
+      </select>
+    </p>
+    <p>
+      <label for="comentarios">Comentarios</label>
+      <br>
+      <textarea name="comentarios" rows="8" cols="80"></textarea>
+    </p>
+    <p>
+      <label for="acepto">Acepto términos y condiciones</label>
+      <br>
+      <input type="checkbox" name="acepto" value="">
+    </p>
+    <p>
+      <input type="submit"value="Registrar">
+    </p>
+  </form>
+  </body>
+</html>
