@@ -1,0 +1,54 @@
+body{
+  font-size: 3em;
+  font-family: helvetica;
+}
+div [class="bloque"]{
+  min-height: 200px;
+  flex: 1 2 40%;
+}
+.bloque1{
+  color: #ddd;
+  background-color: #ff0000;
+  order: 5;
+  flex-basis: 40%;
+}
+.bloque2{
+  color: #333;
+  background-color: #ffff90;
+  order: 2;
+  flex-basis: 40%;
+}
+.bloque3{
+  color: #ddd;
+  background-color: #ffee00;
+  order: 3;
+  flex-basis: 40%;
+}
+.bloque4{
+  color: #333;
+  background-color: #ffeeee;
+  order: 4;
+  flex-basis: 40%;
+}
+.bloque5{
+  color: #ddd;
+  background-color: #eee000;
+  order: 1;
+  flex-basis: 40%;
+}
+.bloque6{
+  color: #ddd;
+  background-color: #eeeeff;
+  order: 6;
+  flex-basis: 40%;
+}
+.bloque7{
+  color: #ddd;
+  background-color: #efbeee;
+  order: 7;
+  flex-basis: 40%;
+}
+.contenedor{
+  display: flex;
+  flex-flow: row wrap;
+}
